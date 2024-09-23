@@ -23,7 +23,7 @@ const cm = '20cm';
 const px = '64px';
 
 const intFromCM = parseInt(cm);
-const intFromPX = parseInt(px);//parse membaca perkata jika bukan number maka konversi berhenti
+const intFromPX = parseInt(px);//parses membaca perkata jika bukan number maka konversi berhenti
 
 console.log(intFromCM); // output: 20
 console.log(intFromPX); // output: 64
