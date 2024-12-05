@@ -1,5 +1,5 @@
 ssh -i "DicodingPair.pem" ubuntu@ec2-18-141-143-223.ap-southeast-1.compute.amazonaws.com (yes)
-$path = ".\notes-api-webserver.pem"
+$path = ".\DicodingPair.pem"
 
 # Reset to remove explicit permissions
 
@@ -13,7 +13,7 @@ icacls.exe $path /GRANT:R "$($env:USERNAME):(R)"
 
 icacls.exe $path /inheritance:r
 
-exit(untuk logout)
+exit(untuk slogout)
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash (install node untuk ec2)
 
